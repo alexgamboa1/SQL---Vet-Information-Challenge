@@ -21,7 +21,7 @@ FROM procedurehistory
 SELECT * 
 FROM pets AS A 
 INNER JOIN procedurehistory AS B
-ON A.PETID = B.PETID
+ON A.PETID = B.PETID;
 
 --3. Match up all procedures performed to their descriptions
 SELECT *
